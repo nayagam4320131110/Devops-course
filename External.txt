@@ -1,0 +1,43 @@
+No.     Time                          Source                Destination           Protocol Length Info
+   2579 2025-04-04 19:59:20.972868010 198.181.121.50        10.199.169.154        SIP/SDP  1216   Request: INVITE sip:2035120@10.199.169.154:5060, in-dialog | 
+
+Frame 2579: 1216 bytes on wire (9728 bits), 1216 bytes captured (9728 bits)
+Ethernet II, Src: SonusNetwork_03:d0:d9 (00:10:6b:03:d0:d9), Dst: IETF-VRRP-VRID_58 (00:00:5e:00:01:58)
+802.1Q Virtual LAN, PRI: 0, DEI: 0, ID: 388
+Internet Protocol Version 4, Src: 198.181.121.50, Dst: 10.199.169.154
+User Datagram Protocol, Src Port: 6000, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:2035120@10.199.169.154:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 198.181.121.50:6000;branch=z9hG4bK0cBd47fcd46a180d3c5
+        From: "Pawan Kirtikar" <sip:2022996@198.181.121.50>;tag=gK0c1ac12f
+        To: "Brianna Bonson" <sip:2035120@198.181.121.50>;tag=86ffe0-9aa9c70a-13c4-55013-987ae-2879cc5e-987ae
+        Call-ID: 0095DF94-1AB9-16E3-884A-0101007FAA77-300827-@use4scl-880-001.use4.g1.genprim.com
+        [Generated Call-ID: 0095DF94-1AB9-16E3-884A-0101007FAA77-300827-@use4scl-880-001.use4.g1.genprim.com]
+        CSeq: 197811 INVITE
+        Max-Forwards: 70
+        Allow: INVITE,ACK,CANCEL,BYE,REGISTER,NOTIFY,PRACK,UPDATE,OPTIONS
+        Accept: application/sdp, application/isup, application/dtmf, application/dtmf-relay, multipart/mixed
+        Contact: "Pawan Kirtikar" <sip:2022996@198.181.121.50:6000>
+        X-Genesys-CallInfo: mohenabled
+        X-Genesys-CallUUID: 02AN3U0QN4BE722A040G0VTAES03CC3K
+        Supported: timer,precondition,replaces
+        Session-Expires: 1800;refresher=uas
+        Min-SE: 90
+        Content-Length:   235
+        Content-Disposition: session; handling=required
+        Content-Type: application/sdp
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): Sonus_UAC 160957 937196 IN IP4 198.181.121.50
+            Session Name (s): SIP Media Capabilities
+            Connection Information (c): IN IP4 0.0.0.0
+            Time Description, active time (t): 0 0
+            Media Description, name and address (m): audio 27046 RTP/AVP 0 101
+            Media Attribute (a): rtpmap:0 PCMU/8000
+            Media Attribute (a): rtpmap:101 telephone-event/8000
+            Media Attribute (a): fmtp:101 0-15
+            Media Attribute (a): inactive
+            Media Attribute (a): maxptime:20
+            [Generated Call-ID: 0095DF94-1AB9-16E3-884A-0101007FAA77-300827-@use4scl-880-001.use4.g1.genprim.com]
